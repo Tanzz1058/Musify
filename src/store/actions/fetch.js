@@ -25,6 +25,7 @@ export const fetchData = (value) => {
     dispatch(fetchStart());
     fetch(`https://deezerdevs-deezer.p.rapidapi.com/search?q=${value}`, {
       method: "GET",
+      mode: 'no-cors',
       headers: {
         "Content-Type": "application/json",
         "x-rapidapi-host": "deezerdevs-deezer.p.rapidapi.com",
