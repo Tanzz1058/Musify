@@ -1,0 +1,10 @@
+.Title h1{
+  color: beige;
+  font-family: 'Abril Fatface', cursive;
+  display: inline-block;
+}  
+.Title img{
+  width: 4rem;
+  margin-top: 1rem;
+  padding: 0.5rem;
+}
